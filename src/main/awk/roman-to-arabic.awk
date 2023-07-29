@@ -1,6 +1,6 @@
 #!/usr/bin/env gawk -f
 #
-# Roman to arabic numeral converter
+# Roman to Arabic numeral converter
 #
 # Copyright (c) 2023 Jegors Čemisovs
 # License: MIT License
