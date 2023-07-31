@@ -1,8 +1,10 @@
 package org.epam.roman
 
 import spock.lang.Specification
+import spock.lang.Subject
 
 class RomanToArabicConverterTest extends Specification {
+    @Subject
     def sut = new RomanToArabicConverter()
 
     def "convert roman numeral string to arabic number"() {

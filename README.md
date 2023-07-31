@@ -1,10 +1,17 @@
 # Roman to arabic numeral converter
 
-## Description
-This is a simple roman to arabic numeral converter. 
-It takes a roman numeral as input and returns the corresponding arabic numeral.
+The repository contains AWK script to convert Roman numbers to Arabic numbers, as well as two Java implementations of the converter.
 
-## Usage
+## AWK script
+The script is located in the `src/main/awk` directory. It can be run as follows:
+```shell
+gawk -f roman-to-arabic.awk roman_numerals.txt
+```
+
+## Java implementations
+The Java implementations are located in the `src/main/java` directory.
+
+### Usage
 ```java
 var converter = new RomanToArabicConverter();
 
